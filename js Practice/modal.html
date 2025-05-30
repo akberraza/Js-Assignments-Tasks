@@ -1,0 +1,59 @@
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content borderradius-remove">
+                <div class="modal-header d-flex justify-content-center">
+                    <h5 class="modal-title" id="staticBackdropLabel">Manage Categories</h5>
+                </div>
+                <div class="modal-body">
+                    <form id="addingmemberform" class="container">
+                        <!-- <div class="form-outline">
+                            <label for="resItemName" class="form-label">Item Name</label>
+                            <input type="text" class="form-control shadow-remove borderradius-remove"
+                                placeholder="Food Name" id="resItemName" aria-describedby="emailHelp">
+                        </div> -->
+                        <br>
+                        <!-- <div class="form-outline">
+                            <label for="resPrice" class="form-label">Price</label>
+                            <input type="number" class="form-control shadow-remove borderradius-remove"
+                                placeholder="Price" id="resPrice" aria-describedby="emailHelp">
+                        </div> -->
+                        <input type="hidden" id="hiddeninput">
+                        <br>
+                        <div class="form-outline">
+                            <label for="resCatrgory" class="form-label">Category</label>
+                            <!-- <select id="resCatrgory" class="form-select shadow-remove borderradius-remove"
+                                aria-label="Default select example">
+                                <option value="Not selected" selected></option>
+                                <option value="Chinees">Biryani</option>
+                                <option value="Pakistani">B.B.Q</option>
+                                <option value="Jappness">Kabab</option>
+                            </select> -->
+                            <input type="text" name="" class="form-control shadow-remove borderradius-remove" id="">
+                        </div>
+                        <br>
+                        <div class="form-outline">
+                            <label for="resFoodImage" class="form-label">Food Image</label>
+                            <input type="file" accept="image/png, image/jpeg"
+                                class="form-control shadow-remove borderradius-remove" id="resFoodImage"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" id="createteamid" onclick="addItem()"
+                        class="btn btn-info text-white borderradius-remove shadow-remove" data-bs-dismiss="modal">
+                        Create
+                    </button>
+
+
+                    <button type="button" id="cancelbutton"
+                        class="btn btn-warning text-white borderradius-remove shadow-remove" data-bs-dismiss="modal">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
