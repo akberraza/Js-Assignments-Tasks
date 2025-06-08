@@ -4584,7 +4584,7 @@ window.onload = function(){
   }
 }*/
 
-var arr = [];
+/*var arr = [];
 
 var users = localStorage.getItem("user");
 
@@ -4760,7 +4760,4 @@ window.onload = function(){
     }
   }
 }*/
-
-
-
 

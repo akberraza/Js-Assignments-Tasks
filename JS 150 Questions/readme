@@ -1,0 +1,284 @@
+🧠 JavaScript Practice Questions (Mixed Difficulty)
+What is the correct syntax to display an alert box with the message "Hello World"?
+
+How do you declare a variable named username and assign it the value "John"?
+
+What will be the output of console.log(typeof null)?
+
+Write a function that returns the square of a number.
+
+What is the difference between == and === in JavaScript?
+
+How do you create an array named colors containing "red", "green", and "blue"?
+
+What does the push() method do in an array?
+
+Explain the concept of hoisting in JavaScript.
+
+How do you write a for loop that counts from 1 to 5?
+
+What is the purpose of the break statement in loops?
+
+How do you convert a string to an integer in JavaScript?
+
+What is the output of typeof NaN?
+
+Write a function that checks if a number is even or odd.
+
+How do you add a new element to the beginning of an array?
+
+What is the difference between null and undefined?
+
+How do you write an if statement that checks if a variable age is greater than 18?
+
+What is the purpose of the return statement in a function?
+
+How do you find the length of a string named message?
+
+What does the splice() method do in arrays?
+
+Explain the difference between var, let, and const.
+
+How do you write a switch statement that checks the value of a variable day?
+
+What is the output of 0.1 + 0.2 === 0.3?
+
+How do you generate a random number between 0 and 1 in JavaScript?
+
+What is the purpose of the typeof operator?
+
+How do you write a function expression in JavaScript?
+
+What is a callback function? Provide an example.
+
+How do you remove the last element from an array?
+
+What is the difference between slice() and splice() methods?
+
+How do you convert a number to a string in JavaScript?
+
+What is the purpose of the isNaN() function?
+
+How do you write a while loop that runs as long as i is less than 10?
+
+What is the difference between for...in and for...of loops?
+
+How do you create an object named person with properties name and age?
+
+What is the purpose of the this keyword in JavaScript?
+
+How do you add a method to an object in JavaScript?
+
+What is the difference between primitive and reference types?
+
+How do you check if an array includes a certain value?
+
+What is the output of typeof function() {}?
+
+How do you prevent default behavior in an event handler?
+
+What is event bubbling in JavaScript?
+
+How do you stop event propagation?
+
+What is the difference between synchronous and asynchronous code?
+
+How do you handle errors in JavaScript using try...catch?
+
+What is a Promise in JavaScript?
+
+How do you create a new Date object representing the current date and time?
+
+What is the purpose of the setTimeout() function?
+
+How do you write an arrow function that adds two numbers?
+
+What is the difference between map() and forEach() methods?
+
+How do you filter an array to only include even numbers?
+
+What is the purpose of the reduce() method in arrays?
+
+How do you find the maximum value in an array of numbers?
+
+What is the spread operator and how is it used?
+
+How do you destructure an object in JavaScript?
+
+What is the rest parameter syntax?
+
+How do you clone an object in JavaScript?
+
+What is the difference between shallow and deep copy?
+
+How do you merge two arrays in JavaScript?
+
+What is the purpose of the Object.keys() method?
+
+How do you check if a property exists in an object?
+
+What is the difference between == and === when comparing objects?
+
+How do you make an HTTP request in JavaScript?
+
+What is the Fetch API?
+
+How do you handle JSON data in JavaScript?
+
+What is CORS and why is it important?
+
+How do you handle asynchronous operations using async/await?
+
+What is the event loop in JavaScript?
+
+How do you debounce a function in JavaScript?
+
+What is throttling in JavaScript?
+
+How do you create a class in JavaScript?
+
+What is inheritance in JavaScript classes?
+
+How do you create a subclass that extends another class?
+
+What is the purpose of the super keyword in classes?
+
+How do you create a static method in a class?
+
+What is the difference between instance and static methods?
+
+How do you use getters and setters in classes?
+
+What is a closure in JavaScript?
+
+How do closures help in data privacy?
+
+What is the module pattern in JavaScript?
+
+How do you export and import modules in JavaScript?
+
+What is the difference between default and named exports?
+
+How do you handle exceptions in Promises?
+
+What is the purpose of the finally method in Promises?
+
+How do you chain multiple Promises together?
+
+What is the difference between Promise.all and Promise.race?
+
+How do you create a custom error in JavaScript?
+
+What is the purpose of the throw statement?
+
+How do you use try...catch...finally blocks?
+
+What is the difference between null and undefined?
+
+How do you check if a variable is null or undefined?
+
+What is the purpose of the typeof operator?
+
+How do you check if a value is an array?
+
+What is the difference between Array.isArray() and instanceof Array?
+
+How do you remove duplicates from an array?
+
+What is the purpose of the Set object in JavaScript?
+
+How do you convert a Set to an array?
+
+What is the difference between Map and Object?
+
+How do you iterate over a Map?
+
+What is the purpose of the WeakMap and WeakSet?
+
+How do you create a Symbol in JavaScript?
+
+What is the purpose of Symbols?
+
+How do you use template literals in JavaScript?
+
+What is the difference between let, const, and var?
+
+How do you create a multi-line string in JavaScript?
+
+What is the purpose of the includes() method in strings?
+
+How do you find the index of a substring in a string?
+
+What is the difference between substring() and slice() methods?
+
+How do you replace a substring in a string?
+
+What is the purpose of the trim() method?
+
+How do you split a string into an array?
+
+What is the purpose of the join() method in arrays?
+
+How do you reverse an array?
+
+What is the difference between sort() and reverse() methods?
+
+How do you sort an array of numbers in ascending order?
+
+What is the purpose of the localeCompare() method?
+
+How do you check if a string starts with a certain substring?
+
+What is the purpose of the endsWith() method?
+
+How do you repeat a string multiple times?
+
+What is the purpose of the padStart() and padEnd() methods?
+
+How do you convert a string to uppercase?
+
+How do you convert a string to lowercase?
+
+What is the purpose of the charAt() method?
+
+How do you get the character code of a character in a string?
+
+What is the purpose of the fromCharCode() method?
+
+How do you check if a string matches a regular expression?
+
+What is the purpose of the match() method?
+
+How do you replace all occurrences of a substring in a string?
+
+What is the purpose of the search() method in strings?
+
+How do you extract a substring using regular expressions?
+
+What is the purpose of the test() method in regular expressions?
+
+How do you create a regular expression in JavaScript?
+
+What is the difference between global and local variables?
+
+How do you declare a constant in JavaScript?
+
+What is the purpose of the eval() function?
+
+Why is using eval() discouraged?
+
+How do you access the DOM in JavaScript?
+
+What is the purpose of the document.getElementById() method?
+
+**How do you change the text content of an HTML element?
+
+
+
+
+
+
+
+
+Sources
+

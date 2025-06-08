@@ -150,11 +150,11 @@
 
 //  Q # 15
 
-var city = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+/*var city = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
 document.write(city + "<br><br>");
 city.splice(0,2)
 document.write(city);
-city.splice()
+city.splice()*/
 
 //  Q # 16
 
