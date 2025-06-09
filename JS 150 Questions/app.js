@@ -99,3 +99,94 @@ if(age > 18){
 // return ka keyword ka use function ka andar sa kisi value ko bahar bhene(output dene) k liya hota ha, taka app function ka bhair use kar sako;
 
 // Q # 18
+/*var str = "Hamza Akhtrli";
+var count = 0;
+for(var i = 0; str[i] !== undefined; i++){
+  count++;
+}
+console.log(count)*/
+
+// Q # 19
+// splice ek array method ha  jo arry ma khin bhi replace,remove,add kar sakta ha
+// Example Remove Element;
+/*var arr = ["Apple","Banana","Grapes"];
+arr.splice(1,1);
+console.log(arr);*/
+
+// Example Add Element;
+/*var fruits = ["Apple","Grapes"];
+fruits.splice(1,0,"Banana");
+console.log(fruits);*/
+
+// Example Replace Element;
+/*var fruits = ["Apple","Banana","Grapes"];
+fruits.splice(2,2,"Orange");
+console.log(fruits);*/
+
+// Q # 20
+// var function scope hota ha agar function ka bhair ho to global scope ban jata ha
+// let block scope hota ha 
+// const bhi block scope hota ha, lakin is ki value change nh kar sakta
+
+// Q # 21
+/*var days = "Saturday";
+switch(days){
+  case "Saturday":
+    console.log("To Day is Saturday");
+    break
+    case "Tuesday":
+      console.log("To Day is Tuesday");
+      break
+}*/
+
+// Q # 22
+//console.log(0.1 + 0.2 == 0.3)// false
+
+// Q # 23
+// console.log(Math.floor(Math.random() * 10));
+
+// Q # 24
+//console.log(typeof 10);// typeof keyword kisi bhi element ki type pata karna k liya use hota ha.
+
+// Q # 25
+/*function foo(){
+return "Hello"
+}
+console.log(foo())*/
+
+// Q # 26
+/*function greet(name, callback) {
+  console.log("Hello, " + name);
+  callback();
+}
+
+function sayGoodbye() {
+  console.log("Goodbye!");
+}
+
+// Passing 'sayGoodbye' as a callback to 'greet'
+greet("Ali", sayGoodbye);*/
+
+// Q # 27
+/*var items = ["Mango","coconut","Pinapple"];
+items.length = items.length - 1;
+console.log(items);*/
+
+// Q # 28
+// slice copy karta ha 
+// splice 3 kaam karta ha khain bhi add/remove/replace karta ha
+/*var things = ["AirPlane","Ak47","9mm"];
+var copyThings = things.slice(1);
+console.log(copyThings);*/
+// Addinng item
+/*var items = ["Bottle","Cooler","Frezer"];
+items.splice(1,0,"Jug");
+console.log(items)*/
+// Removing Items
+/*var items = ["Bottle","Cooler","Frezer"];
+items.splice(1,1);
+console.log(items);*/
+// Replaceing items
+/*var items = ["Bottle","Cooler","Frezer"];
+items.splice(1,1,"Tab");
+console.log(items);*/
