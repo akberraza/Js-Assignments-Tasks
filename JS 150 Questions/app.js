@@ -190,3 +190,64 @@ console.log(items);*/
 /*var items = ["Bottle","Cooler","Frezer"];
 items.splice(1,1,"Tab");
 console.log(items);*/
+
+// Q # 29
+/*var num = 10;
+console.log(num + "");*/
+
+// Q # 30
+/*var str = "Akbar";
+console.log(isNaN(str));*/ // true
+/*var num = true;
+console.log(isNaN(num));*/ // false
+
+// Q # 31
+/*var i = 1;
+while(i <= 10){
+  console.log(i);
+  i++;
+}*/
+
+// Q # 32
+// forin loop in object
+/*var student = {
+  name : "Akbar Raza",
+  class: "Intermediate",
+  age: 21
+}
+for (var key in student) {
+console.log(key,student[key]);
+}*/
+// forin loop in arry
+/*var arr = ["A","B","C"];
+for (var key in arr) {
+    console.log(key,arr[key]);
+}*/
+
+// Q # 33
+/*var person = {
+  name: "Akbar Raza",
+  age: 21
+}
+for (var key in person) {
+ console.log(key,person[key]);
+}*/
+
+// Q # 34
+// this javascript ma ek specail keyword hota ha jo current context / object ko refer karta ha___ matlab jis jhagha ya object ke ander aap ka code chal raha hota ha.
+
+// Q # 35
+/*var detail = {
+  name: "Akbar Raza",
+  greet: function(){
+    console.log("How are You " + this.name);
+  }
+}
+detail.greet()*/
+
+// Q # 35
+// Primitive Defination
+//  ya wo type hoti ha jo value ko directliy store kar sakti ha.
+// in ki copy banai jasakti ha .
+// jab aap ek variable ko dusra variable ma assigin karta ho, to srif value copy hoti ha link nh banti.
+// ya memory ma alag alag jhagha store hoti ha.
