@@ -245,9 +245,51 @@ for (var key in person) {
 }
 detail.greet()*/
 
-// Q # 35
+// Q # 36
 // Primitive Defination
 //  ya wo type hoti ha jo value ko directliy store kar sakti ha.
 // in ki copy banai jasakti ha .
 // jab aap ek variable ko dusra variable ma assigin karta ho, to srif value copy hoti ha link nh banti.
 // ya memory ma alag alag jhagha store hoti ha.
+/*var a = 10;
+var b = a;
+b = 20
+console.log(a);
+console.log(b);*/
+
+
+// Refrence Type(Object type)
+// ya wo type ha jo value ki bajaya refrence ko store karti ha__ yani memory ka address.
+//jab aap kisi object ko assign karta ho, to actual object ki copy nh hoti, balka us ka refrence(address) copy hota ha.
+// Agar app aik jagha change karta ho, to wo har jagha reflect hota ha jahan jahan refrence ko use kya gya ho
+/*var obj1 = {
+  name: "Akbar"
+}
+var obj2 = obj1;
+obj2.name = "Hamza";
+console.log(obj1.name);
+console.log(obj2.name);*/
+
+// Q # 37
+/*var arr = ["Beif","Chicken","Metton"];
+var find = "No"
+for(var i = 0; i< arr.length; i++){
+  if(arr[i] === "Metton"){
+    find = "Yes"
+    break
+  }
+}
+console.log(find);*/
+
+// Q # 38
+// function ki data type function ha
+/*function foo(){
+}
+console.log(typeof foo);*/
+
+// Q # 39
+// javaScript ma kisi event ka default behaivor rokna k liya ham prenentDefault() method ka use karta ha
+/*function handler(a){
+   a.perventDefault();
+   console.log('Linked click, but navigation Stoped');
+}*/
