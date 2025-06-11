@@ -293,3 +293,255 @@ console.log(typeof foo);*/
    a.perventDefault();
    console.log('Linked click, but navigation Stoped');
 }*/
+
+// Q # 40
+// Event bubbling javascript ka ek concept ha jaha event sabsa phala inner element par trigger karta ha, phir uska parent,phir uske parent aur asa hi upar tak propagate karta hai.
+// jab ap kisi nested element par event(jaisa onclick) lagata ho to
+// sab sa phala wo element react karta ha.
+// us ka baad us ka parent
+// phir us ka parent ka  parent--- aur ya process document tak chalta ha.
+// is  bheivor ko event bubbling khata ha --- kyu ka event bubble ki tarha upar utha ha.
+
+// Q # 41
+/*function stopPropagation(a){
+a.stopPropagation();
+console.log("Only button clicked!")
+}*/
+
+// Q # 42
+// synchronous 
+// code ko line by line read karta ha.
+// jab tak phala kaam complete na ho jaya agla kaam nh chalta.
+/*console.log("Start");
+var result = slowFunction();
+console.log("End");*/
+
+// asynchronous  
+// code rutha nh ha background ma kaam chalta rahata ha.
+// Asa function ka use hota ha jo bad ma  complete hota ha.
+/*console.log("Start");
+setTimeout(function(){
+  console.log("Task complete!");
+},1000);
+console.log("End");*/
+
+// Q # 43
+/*try{
+var result = 5 / 0;
+console.log("Result: " + result);
+var x =  y + 1;
+}catch(error){
+console.log("Error aya : " + error.message);
+}*/
+
+// Q # 44
+/*var getDate = new Date()
+document.writeln(getDate);*/
+
+// Q # 45
+// setTimeout javascript ka ek built-in function ha jo kisi function ko delay ka  bad rune karna k liya use hota ha.
+
+// Built-in function
+// built-in function woh hota ha jo javascript khud provide karti ha, user srif us ko use karta ha, banata nh ha.
+
+// Q # 01
+// alert("Hello") likhna sa ek pop up open hota ha
+
+// Q # 02
+// var x = 5; kyun k es5 ma srif var hi tha let aur const es6 ma aya ha.
+
+// Q # 03
+// console.log(typeof 123);// output is number
+
+// Q # 04
+// prompt("Name?")// input field k upar show ho ga.
+
+// Q # 05
+// if(a == "5")// ya srif value check kar raha.
+// if(a === "5") ya value aur data type dono check karta ha
+
+// Q # 06
+// function square(n) { return n*n; } return ka keyword kisi bhi value bhair bhajta ha is liya return zaroori ha.
+
+// Q # 07
+/*var str = 10;
+var i =0;
+while( i < str){
+  i++;
+}*/
+
+// Q # 08
+/*for(var i = 0; i < 5; i++){
+  console.log(i);// output is 01234
+}*/
+
+// Q # 09
+/*var arr = [1,2,3];
+arr.push(4)// output is [1,2,3,4]
+// push ka method arry ka last ma ek is element ko add kar day ga jo push ka  parenttheses ma dya gya ha*/
+
+// Q # 10
+/*var arr = [1,2,3];
+arr.pop()// pop arry ka last index ka element ko remove kar day ga.*/
+
+// Q # 11
+// splice ka method 3 kaam karta ha add/remove / replace.
+// example add
+/*var arr =[1,2,3,4];
+arr.splice(0,0,0);
+console.log(arr);*/
+
+// example remove
+/*var arr = [1,2,3,4];
+arr.splice(1,2);
+console.log(arr);*/
+
+// example replace
+/*var arr = [1,2,3,4,5];
+arr.splice(1,2,0);
+console.log(arr);*/
+
+// Q # 12
+// slice srif copy karta ha aur splice add / remove / replace karta ha.
+/*var arr = ["Akbar","Raza","Hamza","Asjadi"];
+var arr2 = arr.slice(0,1);
+console.log(arr);
+console.log(arr2);*/
+
+// Q # 13
+/*var obj = {
+  a: 1,
+  b: 2
+}
+console.log(obj.a);// output is 1*/
+
+// Q # 14
+/*var obj = {
+  name: 'Akbar',
+  age: 21,
+}
+for (var key in obj) {
+      console.log(key);// output name age.      
+}*/
+
+// Q # 15
+// math.floor decimal hata dayta ha
+/*var num = 10.0000;
+console.log(Math.floor(num)); // output  10*/
+
+// Q # 16
+// math.random random number generate karta ha
+// console.log( Math.random() * 11);
+
+// Q # 17
+// new date current date return karta ha
+/*var getDate = new Date();
+console.log(getDate);*/
+
+// Q # 18
+// console.log(isNaN("abc"));// true return karya ga
+
+// Q # 19
+/*console.log(parseInt("12px"));// 12
+console.log(parseInt("px12"));// NaN*/
+
+// Q # 20
+// console.log(parseFloat("3.14xyz"));//3.14
+
+// Q # 21
+/*var str = "Hello";
+console.log(str.length);//5*/
+
+// Q # 22
+/*var str = "Hello";
+console.log(str.indexOf("e"));//1*/
+
+// Q # 23
+/*var str = "Hello";
+console.log(str.substring(1,3));// output el*/
+
+// Q # 24
+/*var str = "Hello Akbar Raza";
+console.log(str.split(" "));*/
+
+// Q # 25
+/*var str = "akbar raza";
+console.log(str.toUpperCase());// output AKBAR RAZA*/
+
+// Q # 26
+// trim ka method string ka start aur end sa khail space delete karna k liya use hota ha.
+/*var str = "      Akbar Raza     ";
+console.log(str.trim());*/
+
+// Q # 27
+// console.log(!true);// false
+
+// Q # 28
+/*if(!!"text"){
+  console.log("True"); // true
+}else{
+  console.log("False");
+}*/
+
+// Q # 29
+// console.log(undefined == null);// true
+
+// Q # 30
+// console.log(null === undefined);// false
+
+// Q # 31
+/*var a = [];
+console.log(typeof a);// object*/
+
+// Q # 32
+// console.log(typeof function foo(){});// function
+
+// Q # 33
+/*function foo(a,b){
+return a + b // 5
+}
+console.log(foo(2,3));*/
+
+// Q # 34
+// var a = "Akbar"
+
+// Q # 35
+// local variable function k andar banaya jata ha jo srif function k andar hi access ho sakta ha function k bhair access nh karta;
+// global variable khain bhi access ho jata ha chaha function ha ya block har jhaga acess ho jata ha 
+
+// local variable
+/*function foo(){
+  var a = "Akbar";
+}
+console.log(a);// not access refrence error return kara ga.*/
+
+// Global variable
+/*var a = "Akbar";
+function foo(){
+ return a ; // a access ho gya Akbar return karya ga
+}
+console.log(foo());*/
+
+// Q # 36
+// hoisting javascript complie hoona sa phala hi variables  aur function ko  memory ma top par lajata ha par initilize nh karta.
+// console.log(a); // undefined return karya ga
+// var a = "Raza"
+
+// Q # 37
+// settimeout 2sec bad alert chala ga jis ma Hi likha ho ga
+/*setTimeout(function(){
+  alert("Hi")
+},2000);*/
+
+// Q # 38
+// clearTimeout settimeout ko rokna k liya ho ha exp ek alert ha aur wo 3 sec bad show ho ga aur hamna clearTimeout laga dya to wo alert nh chala ga.
+/*var id = setTimeout(function(){
+  alert("Hi!");
+},2000);
+clearTimeout(id);*/
+
+// Q # 01
+// console.log(typeof NaN);//number
+
+// Q # 02
+console.log("2"+2+1);// 221

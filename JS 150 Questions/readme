@@ -1,284 +1,312 @@
-🧠 JavaScript Practice Questions (Mixed Difficulty)
-What is the correct syntax to display an alert box with the message "Hello World"?
+/*🧠 ES5 JavaScript Questions
 
-How do you declare a variable named username and assign it the value "John"?
+alert("Hello"); likhne se kya hota hai?
 
-What will be the output of console.log(typeof null)?
+var x = 5; ka var kyun use hota hai ES5 mein?
 
-Write a function that returns the square of a number.
+typeof 123 ka output kya hota hai?
 
-What is the difference between == and === in JavaScript?
+prompt("Name?") se input ka result kaise treat hota hai?
 
-How do you create an array named colors containing "red", "green", and "blue"?
+if (a == "5") aur if (a === "5") mein farq kya hai?
 
-What does the push() method do in an array?
+function square(n) { return n*n; } mein return kyun zaroori hai?
 
-Explain the concept of hoisting in JavaScript.
+while(i < 10) { i++; } loop ka basic structure kya hai?
 
-How do you write a for loop that counts from 1 to 5?
+for(var i=0; i<5; i++) { console.log(i); } iska output kya hoga?
 
-What is the purpose of the break statement in loops?
+var arr = [1,2,3]; arr.push(4); push() kya karta hai?
 
-How do you convert a string to an integer in JavaScript?
+arr.pop() ka result kya hota hai?
 
-What is the output of typeof NaN?
+arr.splice(1,1) se array mein kya change aata hai?
 
-Write a function that checks if a number is even or odd.
+arr.slice(1,3) aur splice(1,3) mein kya farq hai?
 
-How do you add a new element to the beginning of an array?
+var obj = {a:1, b:2}; obj.a se milta kya hai?
 
-What is the difference between null and undefined?
+for (var key in obj) { console.log(key); } loop kya karta hai?
 
-How do you write an if statement that checks if a variable age is greater than 18?
+Math.floor(4.7) kya result deta hai?
 
-What is the purpose of the return statement in a function?
+Math.random() kya kaam karta hai?
 
-How do you find the length of a string named message?
+new Date() se hum kya hasil karte hain?
 
-What does the splice() method do in arrays?
+isNaN("abc") me kya value return hoti hai?
 
-Explain the difference between var, let, and const.
+parseInt("12px") return karta kya?
 
-How do you write a switch statement that checks the value of a variable day?
+parseFloat("3.14xyz") ka result kya hota hai?
 
-What is the output of 0.1 + 0.2 === 0.3?
+var str = "hello"; str.length; kya value hoti hai?
 
-How do you generate a random number between 0 and 1 in JavaScript?
+str.indexOf("e") kya return karega?
 
-What is the purpose of the typeof operator?
+str.substring(1,3) ka output kya hota hai?
 
-How do you write a function expression in JavaScript?
+str.split(" ") ka output example do.
 
-What is a callback function? Provide an example.
+str.toUpperCase() kya karta hai?
 
-How do you remove the last element from an array?
+str.trim() example se explain karo.
 
-What is the difference between slice() and splice() methods?
+!true kya hoga?
 
-How do you convert a number to a string in JavaScript?
+!!"text" se kya output milega?
 
-What is the purpose of the isNaN() function?
+undefined == null kya return karega?
 
-How do you write a while loop that runs as long as i is less than 10?
+null === undefined kya hota hai?
 
-What is the difference between for...in and for...of loops?
+var a = []; typeof a kya dikhata hai?
 
-How do you create an object named person with properties name and age?
-    
-What is the purpose of the this keyword in JavaScript?
+function foo(){} typeof foo kya hota hai?
 
-How do you add a method to an object in JavaScript?
+function foo(a,b) { return a + b; } foo(2,3); kya output hota hai?
 
-What is the difference between primitive and reference types?
+Global variable kaise bante hain ES5 mein?
 
-How do you check if an array includes a certain value?
+Local variable vs global variable farq kya hai?
 
-What is the output of typeof function() {}?
+Hoisting hota kya hai? Example do.
 
-How do you prevent default behavior in an event handler?
+setTimeout(function(){ alert("Hi"); },2000); kya karta hai?
 
-What is event bubbling in JavaScript?
+clearTimeout(id) kab use hota hai?  
 
-How do you stop event propagation?
+setInterval(...) ka use batayein.
 
-What is the difference between synchronous and asynchronous code?
+clearInterval(id) kyun zaroori hota hai?
 
-How do you handle errors in JavaScript using try...catch?
+document.getElementById("demo") kya karta hai?
 
-What is a Promise in JavaScript?
+element.innerHTML = "New"; ka use kya hai?
 
-How do you create a new Date object representing the current date and time?
+Event ke liye onclick="myFunc()" hota kya hai?
 
-What is the purpose of the setTimeout() function?
+function myFunc(){ alert("Clicked"); } ka purpose?
 
-How do you write an arrow function that adds two numbers?
+location.href = "https://..."; kya karta hai?
 
-What is the difference between map() and forEach() methods?
+window.open(...) ka use?
 
-How do you filter an array to only include even numbers?
+confirm("OK?") return kya karta hai?
 
-What is the purpose of the reduce() method in arrays?
+console.log("Debug"); kyun use hota hai?
 
-How do you find the maximum value in an array of numbers?
++ operator strings ke sath kya karta hai?
 
-What is the spread operator and how is it used?
+"5" + 3 kya return karega?
 
-How do you destructure an object in JavaScript?
+"5" - 3 kya return karega?
 
-What is the rest parameter syntax?
+"5" * 2 kya value deti hai?
 
-How do you clone an object in JavaScript?
+"15px" - 5 kya output hota hai?
 
-What is the difference between shallow and deep copy?
+true + true result kya hai?
 
-How do you merge two arrays in JavaScript?
+false + false kya output hai?
 
-What is the purpose of the Object.keys() method?
+[] + [] JavaScript mein kya hota hai?
 
-How do you check if a property exists in an object?
+[] == ![] true hota hai? kab?
 
-What is the difference between == and === when comparing objects?
+var a = [1,2]; var b = a; b.push(3); a ka kya result hoga?
 
-How do you make an HTTP request in JavaScript?
+var a = [1,2]; var b = a.slice(); b.push(3); a ka kya result hoga?
 
-What is the Fetch API?
+delete obj.a kya karta hai object mein?
 
-How do you handle JSON data in JavaScript?
+obj.hasOwnProperty("a") kyu use hota hai?
 
-What is CORS and why is it important?
+JSON.stringify({a:1,b:2}) kya return karta hai?
 
-How do you handle asynchronous operations using async/await?
+JSON.parse('{"a":1}') kya deta hai?
 
-What is the event loop in JavaScript?
+function Person(name){ this.name = name; } var p = new Person("Ali"); p.name kya hai?
 
-How do you debounce a function in JavaScript?
+Person.prototype.greet = function(){ return "Hi "+ this.name; }; kya karta hai?
 
-What is throttling in JavaScript?
+p.greet() kya output dega?
 
-How do you create a class in JavaScript?
+Prototype chain kya hoti hai? Simple explanation.
 
-What is inheritance in JavaScript classes?
+instanceof operator kya karta hai?
 
-How do you create a subclass that extends another class?
+function(){} ka kya naam hai — function declaration ya expression?
 
-What is the purpose of the super keyword in classes?
+Self‑invoking function example de kar explain karo.
 
-How do you create a static method in a class?
+var f = function(){ return 2; } typeof f kya hoga?
 
-What is the difference between instance and static methods?
+arguments object kya hai function ke andar? Example do.
 
-How do you use getters and setters in classes?
+arguments.length kis ka hota hai?
 
-What is a closure in JavaScript?
+call() method ka kya use hai?
 
-How do closures help in data privacy?
+apply() aur call() mein farq kya hai?
 
-What is the module pattern in JavaScript?
+bind() kya karta hai?
 
-How do you export and import modules in JavaScript?
+function _(){ console.log(this); } _.call(obj) kya print karega?
 
-What is the difference between default and named exports?
+setTimeout(function(){ console.log(this); },1000); me this kya hota hai?
 
-How do you handle exceptions in Promises?
+How to make this refer to object inside timeout callback?
 
-What is the purpose of the finally method in Promises?
+var that = this; kis scenario me use hota hai?
 
-How do you chain multiple Promises together?
+(+function(){ console.log("IIFE"); })(); kya hai?
 
-What is the difference between Promise.all and Promise.race?
+new Boolean(false) truthy ya falsy?
 
-How do you create a custom error in JavaScript?
+new Number(0) truthy ya falsy?
 
-What is the purpose of the throw statement?
+"use strict"; ES5 mein kyu likha jata hai?
 
-How do you use try...catch...finally blocks?
+"use strict"; var obj = {}; obj.newProp = 123; newProp kaisa property banega?
 
-What is the difference between null and undefined?
+"use strict"; delete Object.prototype; error aayega kya?
 
-How do you check if a variable is null or undefined?
+Strict mode mein x = 10; without var allowed hai?
 
-What is the purpose of the typeof operator?
+Strict mode mein duplicate parameter name function foo(a,a) allowed hai?
 
-How do you check if a value is an array?
+Object.keys(obj) kya return karta hai?
 
-What is the difference between Array.isArray() and instanceof Array?
+Object.getOwnPropertyNames(obj) kya deta hai?
 
-How do you remove duplicates from an array?
+Object.freeze(obj) ka effect?
 
-What is the purpose of the Set object in JavaScript?
+Object.isFrozen(obj) kya return karega?
 
-How do you convert a Set to an array?
+Object.seal(obj) kya karta hai?
 
-What is the difference between Map and Object?
+Object.isSealed(obj) kya return karega?
 
-How do you iterate over a Map?
+Object.defineProperty(obj,"a", {value:1, writable:false}); kya banega?
 
-What is the purpose of the WeakMap and WeakSet?
+Object.getOwnPropertyDescriptor(obj,"a") kya deta hai?
 
-How do you create a Symbol in JavaScript?
+delete obj.a writable:false property se remove hoti hai kya?
 
-What is the purpose of Symbols?
+var arr = [1,2,3,4]; arr.filter(function(n){ return n%2==0; }); kya result milta hai?
 
-How do you use template literals in JavaScript?
+arr.map(function(n){ return n*2; }) kya output deta hai?
 
-What is the difference between let, const, and var?
+arr.forEach(function(n){ console.log(n); }); kya karta hai?
 
-How do you create a multi-line string in JavaScript?
+arr.reduce(function(total,n){ return total+n; }, 0); kya return karega?
 
-What is the purpose of the includes() method in strings?
+arr.every(function(n){ return n>0; }) kya check karta hai?
 
-How do you find the index of a substring in a string?
+arr.some(function(n){ return n>3; }) kya return karta hai?
 
-What is the difference between substring() and slice() methods?
+arr.indexOf(3) kya return deta hai?
 
-How do you replace a substring in a string?
+arr.lastIndexOf(2) kya return hai?
 
-What is the purpose of the trim() method?
+arr.join("-") kya karta hai?
 
-How do you split a string into an array?
+arr.reverse() kya karta hai original array par?
 
-What is the purpose of the join() method in arrays?
+function nested() { function inner(){ return "Hi"; } return inner(); } kya hota hai?
 
-How do you reverse an array?
+Closure kya hoti hai? Example do.
 
-What is the difference between sort() and reverse() methods?
+var add = (function(){ var counter = 0; return function(){ return ++counter; }; })(); add(); add(); kya return hota hai?
 
-How do you sort an array of numbers in ascending order?
+try{ throw "Error"; } catch(e){ console.log(e); } kya karta hai?
 
-What is the purpose of the localeCompare() method?
+finally block kab execute hota hai?
 
-How do you check if a string starts with a certain substring?
+throw new Error("Bad"); ka use kya hai?
 
-What is the purpose of the endsWith() method?
+Error.prototype.name kya store hoti hai?
 
-How do you repeat a string multiple times?
+Error.prototype.message kya hoti hai?
 
-What is the purpose of the padStart() and padEnd() methods?
+split("") ke baad array reversed string banana hai kyun useful hai?
 
-How do you convert a string to uppercase?
+Anonymous function or named function ka farq?
 
-How do you convert a string to lowercase?
+Higher‑order function kya hoti hai? Example do.
 
-What is the purpose of the charAt() method?
+Function returning function example do.
 
-How do you get the character code of a character in a string?
+Function taking function as argument example do.
 
-What is the purpose of the fromCharCode() method?
+function factorial(n){ if(n<=1) return 1; else return n*factorial(n-1); } recursive ks example?
 
-How do you check if a string matches a regular expression?
+Recursive function me base case kyun zaroori hai?
 
-What is the purpose of the match() method?
+arguments.callee kya hota tha ES5 me?
 
-How do you replace all occurrences of a substring in a string?
+Why arguments.callee discouraged?
 
-What is the purpose of the search() method in strings?
+function(){ console.log(arguments.callee); } forbidden in strict mode?
 
-How do you extract a substring using regular expressions?
+function* gen(){ yield 1; } generator ES5 mei nahi hotay, kyun?
 
-What is the purpose of the test() method in regular expressions?
+Object.prototype.a = 1; for(var k in obj) { console.log(k); } kya print karega?
 
-How do you create a regular expression in JavaScript?
+Prototype chain mein hasOwnProperty kyun dekha jata hai?
 
-What is the difference between global and local variables?
+window === this console me true ya false?
 
-How do you declare a constant in JavaScript?
+document === this kya hota hai global scope me?
 
-What is the purpose of the eval() function?
+IIFE se scope pollution kaise roka jata hai?
 
-Why is using eval() discouraged?
+var i; function f(){ console.log(i); var i = 5; } f(); output kya hai?
 
-How do you access the DOM in JavaScript?
+function foo(){ console.log(a); } foo(); var a = 10; output kya?
 
-What is the purpose of the document.getElementById() method?
+function foo(){ a = 20; } foo(); console.log(a); output kya?
 
-**How do you change the text content of an HTML element?
+'use strict'; function foo(){ a = 20; } foo(); error hoga?
 
+delete this; "use strict"; me kya hoga?
 
+ES5 me class concept kyun nahi hota?
 
+Polyfill kya hota hai? Example de kar batao.
 
+Debounce implementation ES5 me kaise hoti?
 
+Throttle concept ES5 me kya hota hai?
 
+JSON.parse() aur JSON.stringify() use cases?
 
+Deep copy ES5 me kaise ki jaa sakti hai?
 
-Sources
+setTimeout(fn(), 1000) aur setTimeout(fn,1000) mein fark?
+
+var f = function named(){...} named expression ka fayda?
+
+new Function("a","b","return a+b"); use karna secure hai ya nahi?
+
+with statement ES5 me allowed hai, readability par kya asar?
+
+strict mode me with allowed hai ya nahi?
+
+eval("2+2") se kya hota hai? performance/security implications?
+
+Why eval() avoid karna chahiye?
+
+BROWSER global object ke andar ES5 me kaunse objects/methods hote hain? list karo.
+
+Yeh rahe 150 ES5 questions in mixed order. Aap inhe apni practice ke liye use kar sakte hain.
+Agar aap chahain to inn ke answers bhi provide kar sakta hoon, ya categorised format mein bhi arrange kar sakta hoon — sirf aap bataiye!*/
+
+
+
+
+
+
+
 
