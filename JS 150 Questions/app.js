@@ -544,4 +544,10 @@ clearTimeout(id);*/
 // console.log(typeof NaN);//number
 
 // Q # 02
-console.log("2"+2+1);// 221
+// console.log("2"+2+1);// 221
+
+// Q # 03
+// Boolen(0) true return karya ga kyu k 0 false value ha.
+// Boolen("0") false return karya ga kyu k string boolen nh hoti is liya false return karyaga
+
+// Q # 04
