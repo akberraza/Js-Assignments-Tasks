@@ -540,6 +540,8 @@ console.log(foo());*/
 },2000);
 clearTimeout(id);*/
 
+// part 1
+
 // Q # 01
 // console.log(typeof NaN);//number
 
@@ -550,4 +552,42 @@ clearTimeout(id);*/
 // Boolen(0) true return karya ga kyu k 0 false value ha.
 // Boolen("0") false return karya ga kyu k string boolen nh hoti is liya false return karyaga
 
-// Q # 04
+//  Q # 04
+// console.log(parseInt('08')); // 8
+// console.log(parseInt("08",10)); // 8
+
+//  Q # 05
+// console.log(null +  1); // output 1
+
+// part 2
+
+// Q # 1
+
+/*function reverseString(){
+   var str = "JavaScript";
+   var final = "";
+
+   for(var i = str.length-1; i >= 0; i--){
+   final += str[i];
+   }
+   return final;
+}
+console.log(reverseString());*/
+
+// Q # 2
+
+/*function checkPalindrom(){
+var str = "akbar";
+var check = "";
+
+for(var i = str.length-1; i>=0; i--){
+  check += str[i];
+}
+
+if(str === check){
+   console.log("This is  a palindrom");
+}else{
+  console.log("This is  not a palindrom");
+}
+}
+checkPalindrom()*/

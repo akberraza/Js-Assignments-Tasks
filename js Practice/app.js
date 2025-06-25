@@ -4761,3 +4761,120 @@ window.onload = function(){
   }
 }*/
 
+/*function one(){
+  console.log("One");
+}
+
+function two(){
+  console.log("Two");
+}
+function three(){
+  console.log("Three");
+}
+one();
+two();
+three();*/
+
+// var a = 10;
+// console.log(a);
+// var a = 10;
+
+// function outer() {
+//   var b = 20;
+  
+//   function inner() {
+//     var c = 30;
+//     console.log(a, b, c);
+//   }
+//   console.log(a , b);
+
+//   inner();
+// } 
+
+// outer();
+
+// var num = "Akbar";
+// var num = "Raza";
+
+// console.log(num);
+
+
+// let num = "Akbar";
+// num = "Raza";
+
+// console.log(num);
+
+
+// const num = "Akbar";
+
+// {
+//   const num = "Raza";
+//   console.log(num);
+// }
+
+// console.log(num);
+
+// var num = "Akbar";
+
+// {
+//   var num = "Raza";
+//   console.log(num);
+// }
+// console.log(num);
+
+// let obj = {
+//   name: "Akbar Raza",
+//   email: "akbarraza@gmail.com"
+// }
+
+// let obj2;
+// obj2 = obj;
+// obj2 = {
+//   name:"Hamza Raza",
+//   age: 21,
+// }
+// console.log(obj,obj2);
+
+// let fruit = ["Apple","Banana"];
+
+// let fruit2;
+
+// fruit2 = [...fruit];
+
+// fruit2.push("Mango");
+
+// console.log(fruit,fruit2);
+
+// let person = {
+//   name : "Akbar",
+//   age: 21,
+// }
+
+// let person2;
+// person2 = {...person};
+// person2.name =  "Raza";
+// console.log(person,person2);
+
+// function greet(){
+//    console.log("Hello");
+// }
+
+// let sayHello = greet;
+
+// sayHello()
+
+// let obj = {
+//    speek: function(){
+//     console.log("I am Speaking");
+//    }
+// }
+
+// let another = obj;
+
+// another.speek = function(){
+//   console.log("Change!");
+//   console.log("Change 2!");
+  
+// }
+
+// obj.speek();
