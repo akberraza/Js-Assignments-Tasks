@@ -4878,3 +4878,177 @@ three();*/
 // }
 
 // obj.speek();
+
+// const obj = {
+//   name: "Akbar Raza",
+//   age: 21
+// }
+
+// obj.teacher = "Sir Saad";
+
+// console.log(obj);
+
+
+// const obj = {
+//   name: "Akbar Raza",
+//   age: 21
+// }
+
+// let obj2 = {...obj};
+// obj2.teacher= "Sir Saad";
+
+// console.log(obj,obj2);
+
+// const fruit = ["Mango","Banana"];
+
+// fruit[2] = "Nashpati";
+// console.log(fruit);
+
+// const sum = (a,b) => a + b;
+
+// console.log(sum(10,20));
+
+// const sum = (...c) =>  c 
+
+// console.log(sum(10,20,30,40,50,60));
+
+// let numbers = [20,544,98,734,20,];
+
+// let evenNumbers = numbers.filter(numbers => numbers % 2 === 0);
+// console.log(evenNumbers);
+
+// let obj = [
+//   {
+//     name: "Akbar Raza",
+//     age: 21,
+//   },
+//   {
+//     name: "Hamza",
+//     age: 17,
+//   },
+//   {
+//     name: "Faraz",
+//     age: 22
+//   }
+// ];
+
+// let age = obj.filter(obj => obj.age < 18);
+// console.log(age);
+
+// let numbers = [1,2,3,4,6,,5,7,8,9,10,10];
+// let even = [];
+
+// for(let i = 0; i < numbers.length; i++){
+//   if(numbers[i] % 2 === 0){
+//     even.push(numbers[i]);
+//   }
+// }
+// console.log(even);
+
+/*let numbers = [1,2,3,4,6,,5,7,8,9,10,10];
+
+let even = numbers.filter(numbers => numbers % 2 === 0);
+
+console.log(even);*/
+
+// 🔹 1. Purpose
+
+/*let nums = [1, 2, 3, 4, 5];
+
+// filter: Select only even numbers
+let evenNumbers = nums.filter(n => n % 2 === 0);
+console.log(evenNumbers);
+
+// map: Multiply all numbers by 2
+
+let doubled = nums.map(n => n * 2);
+console.log(doubled);*/
+
+// 🔹 2. Return Type
+
+/*let student = [ 
+  {
+    name: "Akbar Raza",
+    passed: true,
+  },
+  {
+    name: "Sara",
+    passed: false,
+  }
+]
+
+let passedStudent = student.filter(s => s.passed);
+console.log(passedStudent);*/
+
+/*let student = [
+  {
+    name: "Akbar Raza",
+    passed: true,
+  },
+  {
+    name: "Sara",
+    passed: false,
+  }
+]
+
+let passedStudent = student.map(s => s.name.toUpperCase());
+console.log(passedStudent);*/
+
+
+// 🔹 3. Array Length
+/*let num = [1,34,9,10,93,85,3,7,20];
+
+let filtered = num.filter(a => a > 20)
+console.log(filtered);*/
+
+/*let num = [1,34,9,10,93,85,3,7,20];
+
+let ma = num.map(a => a+1);
+console.log(ma);*/
+
+//🔹 4. Return Logic
+
+/*let word = ["apple","banana","cat"];
+
+let find = word.filter(fin => fin.startsWith("c"));
+
+console.log(find);*/
+
+/*let word = ["apple","banana","cat"];
+
+let find = word.map(wo => wo.length);
+
+console.log(find);*/
+
+
+// 🔷 forEach() in JavaScript
+
+/*let number = [10,20,40];
+
+number.forEach  ( item => {
+  console.log(item);
+}) */
+
+/*let fruit = ["Mango","Banana","Apple"];
+
+  fruit.forEach((item, index) => {
+     console.log(index + " : " + item);
+  });*/
+
+  // 🔹 1. Arrow Function – Practice
+
+  /*Task  01
+
+  const greet = name => `Hello ${name} !`;
+
+  console.log(greet("Akbar")); */
+  
+    /* Task # 02
+
+const multiply = (a , b) => a * b;
+
+console.log(multiply(2,5));*/
+
+    // Task # 03
+
+setTimeout(  () => console.log("Arrow function is cool!"),2000)
