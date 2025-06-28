@@ -5037,18 +5037,218 @@ number.forEach  ( item => {
 
   // 🔹 1. Arrow Function – Practice
 
-  /*Task  01
+/*Task  01
 
-  const greet = name => `Hello ${name} !`;
+const greet = name => `Hello ${name} !`;
 
-  console.log(greet("Akbar")); */
+console.log(greet("Akbar")); */
   
-    /* Task # 02
+ /* Task # 02
 
 const multiply = (a , b) => a * b;
 
 console.log(multiply(2,5));*/
 
-    // Task # 03
+ /* Task # 03
 
-setTimeout(  () => console.log("Arrow function is cool!"),2000)
+setTimeout(  () => console.log("Arrow function is cool!"),2000)*/
+
+// 🔹 2. filter() – Practice
+
+/* Task # 01
+
+ let number =  [12, 5, 8, 130, 44];
+
+ let find = number.filter(num => num > 10);
+
+ console.log(find);*/
+ 
+/* Task # 02
+
+let student = [
+  {
+    name: "Ali",
+    marks : 45
+  },
+  {
+    name: "sara",
+    marks: 80,
+  },
+  {
+    name: "Usman",
+    marks: 65
+  }
+]
+
+let result = student.filter(mark => mark.marks >= 50);
+
+console.log(result);*/
+
+// 🔹 3. map() – Practice
+
+ /*Task # 01
+
+let num = [1,2,3,4];
+
+let square = num.map(sq => sq * sq);
+
+console.log(square);*/
+
+/* Task # 02
+
+let users = [
+  { name : "Ali", age : 20},
+  {name: "Sara", age: 30},
+]
+
+let userName = users.map(s => s.name);
+
+console.log(userName);*/
+
+// 🔹 4. forEach() – Practice
+
+/* Task # 01
+
+let fruit = ["Apple","Banana","Mango"];
+
+fruit.forEach((fruitName,index) => {
+  console.log(`${index} : ${fruitName}`);
+})*/
+
+/*Task # 02
+
+let price = [100,200,300];
+
+price.forEach(price => {
+  console.log(`Price : ${price}`);
+})*/
+
+// 🔥 Real-World Combined Practice Task
+
+/*const task = () => {
+
+  let stuents = [
+    {name: "Ali", age : 18, marks : 45},
+    {name: "sara", age: 19, marks: 75},
+    {name: "usman", age: 17, marks: 90},
+    {name: "Hina", age: 18, marks: 30}
+  ];
+
+ let filterPassedStudent =  stuents.filter(s => s.marks >= 50);
+
+ let passedStudent = filterPassedStudent.map(pass => `${pass.name} has passed with ${pass.marks} marks`);
+
+ passedStudent.forEach((result, index) => {
+  console.log(`${index} : ${result}`);
+ })
+
+}
+task()*/
+
+//🔥 Real-World Combined Practice Challenge #2
+
+/* const employFunction = () => {
+
+  let employees = [
+    {name: "Ali", department: "IT", salary: 55000, isActive: true},
+    {name: "sara", department: "HR", salary: 45000, isActive: false},
+    {name: "Usman", department: "IT", salary: 60000, isActive: true},
+    {name: "Hina", department: "Marketing", salary: 48000, isActive: true},
+    {name: "Zara", department: "IT", salary: 51000, isActive: false},
+  ];
+
+  let filterActiveEmpoly = employees.filter(emp => (emp.department.toLowerCase() === "it" && emp.isActive === true))
+
+  let filtered = filterActiveEmpoly.map(msg => `${msg.name} from ${msg.department} is earning Rs.${msg.salary}`);
+
+  filtered.forEach((result, index) => {
+    console.log(`${index} : ${result}`);
+  })
+}
+
+employFunction();*/
+
+// ✅ Plan: Logic Building Questions (Based on Your Level)
+
+// 01 # Write a function to find the maximum number in an array.
+
+/*function findmaxNumber(arr){
+  let max  = arr[0];
+  
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] > max){
+      max = arr[i];
+    }
+  }
+  return `${max} i find maximum number`;
+}
+
+let number = [10, 2, 37, 5,7, 50 ,33];
+console.log(findmaxNumber(number))*/
+
+// 02 # Write a function that takes a number and returns if it's even or odd
+
+/*function findEven (num){
+ 
+  if(num % 2 === 0){
+    return `${num} is Even`;
+  }else{
+     return `${num} is Odd`
+  }
+}
+
+let number = 7;
+console.log(findEven(number));*/
+
+/* 03 # Create a program that prints 1 to 100, but replaces:
+
+Multiples of 3 with "Fizz"
+
+Multiples of 5 with "Buzz"
+
+Multiples of both with "FizzBuzz"*/
+
+/*function fizzBuzz(){
+    for(var i = 0; i <= 100; i++){
+      if(i % 3 === 0 && i % 5 === 0){
+        console.log("FizzBuzz");
+      }else if(i % 3 === 0){
+        console.log("Fizz");
+      }else if(i % 5 === 0){
+      console.log("Buzz");
+      }else{
+        console.log(i);
+      }
+    }
+}
+fizzBuzz()*/
+
+// 04 # Count how many times "a" appears in a given string.
+
+/*function finda(str){
+  let count = 0;
+
+  for(var i = 0; i < str.length; i++){
+    if(str[i].toLowerCase() === "a"){
+      count++;
+    }
+  }
+  return count;
+}
+console.log(finda("JAVASCRIPT IS AMAZING"));*/
+
+// 05 # Reverse a String
+
+/*function reversString(str){
+
+  let convert = "";
+
+  for(var i = str.length -1; i >= 0;  i--){
+    convert += str[i]
+  }
+  return convert;
+}
+
+let str = "JAVASCRIPT";
+console.log(reversString(str));*/
+
