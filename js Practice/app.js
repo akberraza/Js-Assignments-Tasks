@@ -5252,3 +5252,13 @@ console.log(finda("JAVASCRIPT IS AMAZING"));*/
 let str = "JAVASCRIPT";
 console.log(reversString(str));*/
 
+const reduce = (arr) => {
+
+  let total = arr.reduce((ac, cr) => ac + cr, 0);
+
+  return total;
+}
+
+console.log(reduce([1,2,3,4,]));
+
+
