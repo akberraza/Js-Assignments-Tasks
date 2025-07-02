@@ -5252,13 +5252,151 @@ console.log(finda("JAVASCRIPT IS AMAZING"));*/
 let str = "JAVASCRIPT";
 console.log(reversString(str));*/
 
-const reduce = (arr) => {
+/*const reduce = (arr) => {
 
   let total = arr.reduce((ac, cr) => ac + cr, 0);
 
   return total;
 }
 
-console.log(reduce([1,2,3,4,]));
+console.log(reduce([1,2,3,4,]));*/
 
+// ===================================== Promise =============================================
 
+/*let myPromise = new Promise((resolve,reject) => {
+  let wordDone = true;
+
+  if(!wordDone){
+    resolve("Work is Done");
+  }else{
+    reject("Work is Not Done");
+  }
+})
+
+myPromise
+.then(result => console.log(result))
+.catch(error => console.log(error))*/
+
+/*let myPromise = new Promise((hoGaya,nhHuwa) =>{
+  let workDone = true;
+
+  if(!workDone){
+    hoGaya("Kaam Ho gya bharwa lay ja");
+  }else{
+    nhHuwa("Kaam NH huwa Bharwa Ghalti tari ha Late q laya ");
+  }
+})
+
+myPromise
+   .then(result => console.log(result))
+   .catch(error => console.log(error));*/
+
+/*let taraMaraWada = new Promise((Wafadar,Baywafa) => {
+  let shadi = true;
+
+  if(!shadi){
+    Wafadar("Tu Mari jan ha");
+  }else{
+    Baywafa("Wo chainal Nikli bharwi");
+  }
+});
+
+taraMaraWada
+  .then(result => console.log(result))
+  .catch(error => console.log(error));*/
+
+/*console.log("Akbar Raza");
+
+let loadingData = new Promise((resolve, reject) =>{
+  setTimeout(() => {
+    resolve("Data mil gya after 3 seconds!");
+  },5000)
+})
+
+loadingData
+.then(result => console.log(result))
+.catch(error => console.log(error))
+
+console.log("Akbar Raza 2");
+console.log("Akbar Raza 3");
+console.log("Akbar Raza 4");
+console.log("Akbar Raza 5");
+console.log("Akbar Raza 6");*/
+
+// fetch
+
+/*fetch("https://jsonplaceholder.typicode.com/users")
+  .then(response => response.json()) // convert to JSON
+  .then(data => {
+    console.log("Users:", data);  // log users data
+  })
+  .catch(error => {
+    console.log("❌ Error:", error);
+  });*/
+
+/*fetch("https://jsonplaceholder.typicode.com/users")
+ .then(result => result.json())
+ .then(data =>{
+  console.log("Users", data)
+})
+.catch(error => {
+  console.log("Error",error);
+})*/
+
+/*fetch('https://fakestoreapi.com/products/1')
+.then(res=>res.json())
+.then(json=>console.log(json))*/
+
+/*fetch('https://fakestoreapi.com/carts')
+.then(response => response.json())
+.then(data => console.log(data));*/
+
+/*fetch("https://jsonplaceholder.typicode.com/users")
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error))*/
+
+/*fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
+  headers: {
+    "Content-type": "application/json; charset=UTF-8"
+  },
+  body: JSON.stringify({
+    title: "Akbar's Journey",
+    body: "Fetch aur Promise seekh gaya hoon!",
+    userId: 99
+  })
+})
+  .then(response => response.json())
+  .then(data => console.log("✅ Response:", data))
+  .catch(error => console.log("❌ Error:", error));*/
+
+/*fetch("https://fakestoreapi.com/products/1")
+.then(responed => responed.json())
+.then(result => console.log(result))
+.catch(error => console.log(error));*/
+
+/*let myPromise = new Promise((resolve, reject) => {
+
+  let workDone = true;
+
+  if(!workDone){
+    resolve("Work is Done");
+  }else{
+    reject("Work is not Done!")
+  }
+});
+
+myPromise 
+.then(result => console.log(result))
+.catch(error => console.log(error));*/
+
+/*fetch("https://fakestoreapi.com/products/1")
+.then(res => res.json())
+.then(result => console.log(result))
+.catch(error => console.log(error))*/
+
+fetch("https://some-api.com/resource", {
+  method: "Post",
+  headers: 
+})
