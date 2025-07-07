@@ -5003,7 +5003,7 @@ console.log(filtered);*/
 
 /*let num = [1,34,9,10,93,85,3,7,20];
 
-let ma = num.map(a => a+1);
+let ma = num.map(a =>a+1);
 console.log(ma);*/
 
 //🔹 4. Return Logic
@@ -5396,7 +5396,78 @@ myPromise
 .then(result => console.log(result))
 .catch(error => console.log(error))*/
 
-fetch("https://some-api.com/resource", {
+// fetch POST
+
+/*fetch("https://jsonplaceholder.typicode.com/posts", {
   method: "Post",
-  headers: 
+  headers: {
+    "Content-type": "application/json; charset=UTF-8"
+  },
+  body: JSON.stringify({
+    title: "Akbar Raza",
+    body: "Fetch sa bhaj raha hu",
+    userId: 1
+  })
 })
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error));*/
+
+/*fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
+  headers: {
+    "Content-type" : "application/json; charset=UTF-8"
+  },
+  body: JSON.stringify({
+    title: "Akbar Raza",
+    body: "Akbar Raza is Genius",
+    userId: 11
+  })
+})
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error));*/
+
+/*fetch("https://jsonplaceholder.typicode.com/posts",{
+  method: "POST",
+  headers: {
+    "Content-type" : "application/json; charset=UTF-8"
+  },
+  body: JSON.stringify({
+    title: "Akbar Raza",
+    body: "I am Genius",
+    userId: 12
+  })
+})
+.then(responce => responce.json())
+.then(data => console.log(data))
+.catch(error => console.log(error))*/
+
+/*let arr = [1,3,4,5,6,];
+
+let result = arr.filter(num => num % 2 == 0)
+console.log(result);*/
+
+/*let numbers = [29,44,39, 22,44,43,20];
+
+let result = numbers.filter(num => num % 3 === 1);
+console.log(result);*/
+
+/*let numbers = [29,44,39, 22,44,43,20];
+
+let result = numbers.map(num => num+ 1)
+console.log(result);
+
+let find = result.filter(num => num % 2 === 0)
+console.log(find);*/
+
+/*const janiTaraPasskitniBchiyaHa = (reduced) => {
+
+  let total = reduced.reduce((acc,crr) => acc + crr , 0);
+
+  return total
+}
+
+console.log(janiTaraPasskitniBchiyaHa([1,2,3]));*/
+
+ 
