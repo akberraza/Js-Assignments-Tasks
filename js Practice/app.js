@@ -5470,4 +5470,254 @@ console.log(find);*/
 
 console.log(janiTaraPasskitniBchiyaHa([1,2,3]));*/
 
- 
+/*function outer(){
+  let count = 0;
+
+  return function inner(){
+    count++;
+    console.log("Count", count);
+  }
+}
+
+let counter = outer();
+counter();
+counter()
+counter()
+counter()*/
+
+/*const outer = () => {
+  let count = "I am Akbar Raza";
+
+  return inner = () => {
+    console.log("Count:", count);
+  }
+}
+
+let counter = outer();
+counter();*/
+
+/*let outer = () => {
+  let msg = "Hello Akbar Raza";
+
+  return inner = () => {
+    console.log(msg);
+  }
+}
+
+let result = outer();
+result();
+console.log(typeof result);*/
+
+/*let name = "Akbar";
+let age = 21;
+
+let person = {
+  name,
+  age,
+  greet(){
+    console.log(`Hello ${this.name}`);
+  }
+}
+person.greet()*/
+
+/*let fruit = ["apple","banana","peach","mango"];
+let ab = fruit[Symbol.iterator]();
+console.log(ab.next());
+console.log(ab.next());
+console.log(ab.next());
+console.log(ab.next());
+console.log(ab.next());*/
+
+// let fruit = ["Apple","Banana","Peach","Mango"];
+// console.log(fruit);
+
+// for (let element of fruit) {
+//   console.log(element);
+// }
+
+/*function* girl(){
+  yield "Sharabi"
+  yield "Gulabi"
+  yield "harami"
+  yield "Ammi ki pasand"
+}
+
+let ab = girl();
+console.log(ab.next());
+console.log(ab.next());
+ab.next();
+console.log(ab.next());*/
+
+/*let fruit = ["Apple","Banana","Mango","Peach","Grapes","Cherry"];
+let ab = fruit[Symbol.iterator]();
+
+console.log(ab.next());
+ab.next();
+console.log(ab.next());
+ab.next();
+console.log(ab.next());
+ab.next();*/
+
+/*function* students(){
+  yield "Akbar"
+  yield "Hamza"
+  yield "Hamza Naeem"
+  yield 'faraz'
+}
+
+let ab = students()
+console.log(ab.next());
+ab.next();
+console.log(ab.next());
+console.log(ab.next());*/
+
+// console.log(2 ** 3);
+// console.log(2 ** 4);
+
+/*class Person {
+  constructor(name , age){
+    this.name = name;
+    this.age = age;
+  }
+
+  greet(){
+    console.log(`Hello, my name is ${this.name}`);
+    
+  }
+}
+
+let p1 = new Person("Akbar" , 21);
+p1.greet()*/
+
+{
+  // var str = "Akbar";
+  // let str2 = "Akbar Raza";
+  // const str2 = "Akbar Raza";
+}
+// console.log(str2);
+// console.log(str);
+// console.log(str2);
+
+/*let student = {
+  name : "Akbar Raza",
+  age: 21,
+  roll: 12344
+}
+
+let {name} = student
+console.log(name);*/
+
+/*let friends = {
+  frind1 : "Akbar Raza",
+  frind2 : "Hamza Imtiaz",
+  frind3 : "Hamza Naeem",
+  frind4 : "Faraz Arai",
+  frind5 : "Furqan"
+}
+
+let {frind1, frind2, frind3, frind4, frind5} = friends;
+console.log(frind1);
+console.log(frind2);
+console.log(frind3);
+console.log(frind4);
+console.log(frind5);*/
+
+/*let arr = ["Akbar", "Raza", "Hamza"];
+
+let [a,b,c] = arr;
+console.log(a);
+console.log(b);
+console.log(c);*/
+
+/*let fun = (name = "Akbar", greet = "Hello") => {
+      console.log(`${greet}: ${name}`);
+}
+
+fun()*/
+
+/*const fun = (...agr) => {
+let  total = 0; 
+  for (const agrs of agr) {
+    total += agrs
+  }
+  return total;
+}
+console.log(fun(1,2,3,4));*/
+
+/*let sum = (...a) => {
+   let total = 0;
+   for (const element of a) {
+    total += element;
+   }
+   return total;
+}
+console.log(sum(1,2,3,4));*/
+
+/*let str = "Hello";
+let carryArray = [...str];
+console.log(carryArray);*/
+
+/*let arr1 = [1,2];
+let arr2 = [...arr1,3,4];
+console.log(arr1); // 1 2
+console.log(arr2); // 1 2 3 4*/
+
+/*let user = "username";
+let name1 = "Akbar";
+let obj = {
+  name1,
+  [user]: "Akbar Raza",
+  show(){
+    return "abc";
+  }
+}
+console.log(obj.name1, obj.username, obj.show());*/
+
+/*let chat = "Akbar Raza";
+for (const word of chat) {
+  console.log(word);
+}*/
+
+/*let obj = {name : "Akbar", age: 21};
+for (const p of obj) {
+   console.log(p);
+}*/
+
+/*let person = {name: "Akbar", age: 21};
+for (const key of Object.keys(person)) {
+     console.log(key + ' : ' + person[key]);
+}*/
+
+// console.log(2 ** 3);
+
+/*const user = {
+  name: "Ali",
+  address: {
+    city: "Lahore"
+  }
+};
+
+console.log(user.address.city);        
+console.log(user?.contact?.phone); */    
+
+/*let greet = (name) => {
+  return "Hello : " + name;
+}
+
+let processUser = (userName, callBack) => {
+  return callBack(userName);
+}
+
+let result = processUser("Akbar", greet);
+console.log(result);*/
+
+/*let user = (name) => {
+  return "Hello : " + name
+}
+
+let processUser = (userName, callBack) => {
+       return callBack(userName)
+}
+
+let result = processUser("Akbar", user);
+console.log(result);*/
